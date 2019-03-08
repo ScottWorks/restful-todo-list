@@ -1,0 +1,5 @@
+GET      /api/todo        controllers.ApiController.getAllTodos
+GET      /api/todo/:id    controllers.ApiController.getTodos(id: Int)
+POST     /api/todo        controllers.ApiController.addTodo
+PUT      /api/todo/:id    controllers.ApiController.updateTodo(id: Int)
+DELETE   /api/todo/:id    controllers.ApiController.removeTodo(id: Int)
